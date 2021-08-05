@@ -8,7 +8,7 @@
 - 탑승자 : 택시보다 저렴한 금액으로 차량 이용 가능
 <br>
 
-## 🕑 프로젝트 기간 🕑
+## 🕑 프로젝트 개발 기간 🕑
 - 2021년 7월 2일 ~ 2021년 8월 4일
 <br>
 
@@ -47,9 +47,17 @@
              마이페이지 : 정보 수정, 비밀번호 변경, 좋아요 관리<br>
              프로필 : 프로필 상세 조회, 후기 및 평점 조회<br>
              차량관리 : 드라이버 신청, 차량등록 및 삭제<br>
-             
+ 
+ 
+##💻 개발환경 활용도구 및 기술💻
+운영체제 - MS Window 10 Pro, MacOS
+통합개발환경 - Spring Tool Suite 3.9.12 RELEASE
+개발 언어 - Java/JSP, JavaScript/JQuery, HTML5/CSS3
+데이터베이스 설계 - DA# Modeler
+데이터베이스 - Oracle 11g xe
+웹 어플리케이션 서버 - Apache Tomcat v 9.0
+웹 프레임워크 - MyBatis, Tiles, Bootstrap
 
-## Setup And Deployment 🔧
 1. 내 프로젝트로 Fork합니다.
 2. repository를 clone하여 로컬로 내려받습니다.
 
