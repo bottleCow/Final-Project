@@ -50,13 +50,13 @@
  <br>
  
 ## 💻 개발환경 활용도구 및 기술 💻<br>
-운영체제             - MS Window 10 Pro, MacOS<br>
-통합개발환경         - Spring Tool Suite 3.9.12 RELEASE<br>
-개발 언어            - Java/JSP, JavaScript/JQuery, HTML5/CSS3<br>
-데이터베이스 설계    - DA# Modeler<br>
-데이터베이스         - Oracle 11g xe<br>
-웹 어플리케이션 서버 - Apache Tomcat v 9.0<br>
-웹 프레임워크        - MyBatis, Tiles, Bootstrap<br>
+- 운영체제             - MS Window 10 Pro, MacOS<br>
+- 통합개발환경         - Spring Tool Suite 3.9.12 RELEASE<br>
+- 개발 언어            - Java/JSP, JavaScript/JQuery, HTML5/CSS3<br>
+- 데이터베이스 설계    - DA# Modeler<br>
+- 데이터베이스         - Oracle 11g xe<br>
+- 웹 어플리케이션 서버 - Apache Tomcat v 9.0<br>
+- 웹 프레임워크        - MyBatis, Tiles, Bootstrap<br>
 <br>
 
 1. 내 프로젝트로 Fork합니다.
