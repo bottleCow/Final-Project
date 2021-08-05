@@ -1,6 +1,9 @@
 <h1>🚗🚙 Spring Final Project 타:이거 🚐🚕</h1>
 <br>
 
+## 🌳 Portfolio [[click!](https://github.com/bottleCow/Final-Project/ReadmePictures/portfolio.pdf)] 🌳 
+<br>
+
 ![](ReadmePictures/tiger1.png)
 <br>
 
@@ -64,9 +67,6 @@
 - 데이터베이스         - Oracle 11g xe<br>
 - 웹 어플리케이션 서버 - Apache Tomcat v 9.0<br>
 - 웹 프레임워크        - MyBatis, Tiles, Bootstrap<br>
-<br>
-
-## 🌳 Portfolio [[click!](https://github.com/bottleCow/Final-Project/ReadmePictures/portfolio.ppt)] 🌳 
 <br>
 
 ## Database ERD
