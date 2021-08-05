@@ -60,7 +60,7 @@
 - 웹 프레임워크        - MyBatis, Tiles, Bootstrap<br>
 <br>
 
-## ERD
+## Database ERD
 ![](ReadmePictures/물리최종.png)
 <br>
 
