@@ -1,7 +1,7 @@
 <h1>🚗🚙 Spring Final Project 타:이거 🚐🚕</h1>
 <br>
 
-## 🌳 Portfolio [[click!](https://github.com/bottleCow/Final-Project/ReadmePictures/portfolio.pdf)] 🌳 
+## 🌳 Portfolio [[click!](ReadmePictures/portfolio.pdf)] 🌳
 <br>
 
 ![](ReadmePictures/tiger1.png)
