@@ -69,32 +69,32 @@
 ## Database ERD
 ![](ReadmePictures/물리최종.png)
 <br>
-
-![](ReadmePictures/캡처1.jpg)
+## 메인 페이지
+![](ReadmePictures/캡처1.JPG)
 <br>
-
-![](ReadmePictures/캡처2.jpg)
+## 회원가입
+![](ReadmePictures/캡처2.JPG)
 <br>
-
-![](ReadmePictures/캡처3.jpg)
+## 프로필 변경
+![](ReadmePictures/캡처3.JPG)
 <br>
-
-![](ReadmePictures/캡처4.jpg)
+## 매칭 게시글 작성
+![](ReadmePictures/캡처4.JPG)
 <br>
-
-![](ReadmePictures/캡처5.jpg)
+## 매칭 상세페이지(드라이버 로그인)
+![](ReadmePictures/캡처5.JPG)
 <br>
-
-![](ReadmePictures/캡처6.jpg)
+## 매칭 상세페이지(탑승자 로그인)
+![](ReadmePictures/캡처6.JPG)
 <br>
-
-![](ReadmePictures/캡처7.jpg)
+## 후기
+![](ReadmePictures/캡처7.JPG)
 <br>
-
-![](ReadmePictures/캡처8.jpg)
+## 쪽지 / 좋아요
+![](ReadmePictures/캡처8.JPG)
 <br>
-
-![](ReadmePictures/캡처9.jpg)
+## 관리자 페이지
+![](ReadmePictures/캡처9.JPG)
 <br>
  ```
     git clone {저장소URL}
