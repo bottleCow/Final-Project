@@ -1,6 +1,12 @@
 <h1>🚗🚙 Spring Final Project 타:이거 🚐🚕</h1>
 <br>
 
+![](ReadmePictures/tiger1.png)
+<br>
+
+![](ReadmePictures/tiger2.png)
+<br>
+
 ## ⭐️ Overview ⭐️
 - 목적지나 방향이 같은 운전자 회원과 탑승자 회원의 카풀을 위한 매칭 서비스<br>
 드라이버와 탑승자를 매칭시켜주는 라이드 쉐어링 서비스
@@ -64,31 +70,31 @@
 ![](ReadmePictures/물리최종.png)
 <br>
 
-![](ReadmePictures/캡처1.png)
+![](ReadmePictures/캡처1.jpg)
 <br>
 
-![](ReadmePictures/캡처2.png)
+![](ReadmePictures/캡처2.jpg)
 <br>
 
-![](ReadmePictures/캡처3.png)
+![](ReadmePictures/캡처3.jpg)
 <br>
 
-![](ReadmePictures/캡처4.png)
+![](ReadmePictures/캡처4.jpg)
 <br>
 
-![](ReadmePictures/캡처5.png)
+![](ReadmePictures/캡처5.jpg)
 <br>
 
-![](ReadmePictures/캡처6.png)
+![](ReadmePictures/캡처6.jpg)
 <br>
 
-![](ReadmePictures/캡처7.png)
+![](ReadmePictures/캡처7.jpg)
 <br>
 
-![](ReadmePictures/캡처8.png)
+![](ReadmePictures/캡처8.jpg)
 <br>
 
-![](ReadmePictures/tiger1.png)
+![](ReadmePictures/캡처9.jpg)
 <br>
  ```
     git clone {저장소URL}
