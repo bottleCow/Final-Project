@@ -1,39 +1,88 @@
 package com.ch.tiger;
 
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
+import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
-/**
- * Handles requests for the application home page.
- */
+import com.ch.tiger.model.Apply;
+import com.ch.tiger.model.Carpool;
+import com.ch.tiger.model.Member;
+import com.ch.tiger.model.Notice;
+import com.ch.tiger.model.QnA;
+import com.ch.tiger.model.Report;
+import com.ch.tiger.model.Reservation;
+import com.ch.tiger.service.ApplyService;
+import com.ch.tiger.service.CarpoolService;
+import com.ch.tiger.service.MemberService;
+import com.ch.tiger.service.NoticeService;
+import com.ch.tiger.service.PagingBean;
+import com.ch.tiger.service.QnAService;
+import com.ch.tiger.service.ReportService;
+import com.ch.tiger.service.ReservationService;
+
 @Controller
 public class HomeController {
+	@Autowired
+	private ApplyService as;
+	@Autowired
+	private CarpoolService cps;
+	@Autowired
+	private MemberService mbs;
+	@Autowired
+	private NoticeService ns;
+	@Autowired
+	private QnAService qas;
+	@Autowired
+	private ReportService rps;
+	@Autowired
+	private ReservationService rvs;
 	
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	@RequestMapping("main")
+	public String main() {
+		return "main/main";
+	}
 	
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+	@RequestMapping("adminMain")
+	public String adminMain(Apply apply, Carpool carpool, Notice notice, QnA qna, Report report, Reservation reservation, Model model) {
+	
+		// 타세요 관리 목록
+		List<Carpool> cpAllList = cps.cpAllList(carpool);
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		// 예약내역 목록
+		List<Reservation> rvAllList = rvs.rvAllList(reservation);
+		for (Reservation rv : rvAllList) {	
+			int CP_num = rv.getCP_num();
+			Carpool carpool1 = cps.select(CP_num); 
+			int MB_numDv = carpool1.getMB_num(); 
+			Member member = mbs.selectNum(MB_numDv); 
+			rv.setMB_nickNameDv(member.getMB_nickName()); 
+			Member memberDB = mbs.selectNum(rv.getMB_num());
+			rv.setMB_nickName(memberDB.getMB_nickName());
+		}
 		
-		String formattedDate = dateFormat.format(date);
+		// 드라이버승인 목록
+		List<Apply> applyAllList = as.applyAllList(apply);
+				
+		// 공지사항 목록
+		List<Notice> noticeAllList = ns.noticeAllList(notice);	
 		
-		model.addAttribute("serverTime", formattedDate );
+		// 문의내역 목록
+		List<QnA> qnaAllList = qas.qnaAllList(qna);
 		
-		return "home";
+		// 신고내역 목록
+		List<Report> rpAllList = rps.rpAllList(report);	
+		
+		model.addAttribute("cpAllList", cpAllList);	
+		model.addAttribute("rvAllList", rvAllList);	
+		model.addAttribute("applyAllList", applyAllList);	
+		model.addAttribute("noticeAllList", noticeAllList);	
+		model.addAttribute("qnaAllList", qnaAllList);	
+		model.addAttribute("rpAllList", rpAllList);	
+		
+		return "admin/adminMain";
 	}
 	
 }
