@@ -99,24 +99,4 @@
 ## 관리자 페이지
 ![](ReadmePictures/캡처9.JPG)
 <br>
- ```
-    git clone {저장소URL}
-    ```
-```bash
-git commit -m 'initial project'
-git push - u origin master
-```
-## Documentation 📑
 
-튜토리얼 문서는 [웹 포트폴리오 제작 튜토리얼](https://www.notion.so/cucus/85e3bec77d904f1fa282cec4756232c3)에서 확인해주세요.
-
-## Deploy History 🌳
-
-2021-04-22
-
-- 전체 레이아웃 수정
-- header 사진 변경
-
-2021-04-20
-
-- 프로젝트 생성
